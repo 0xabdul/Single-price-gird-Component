@@ -1,0 +1,249 @@
+/* import url for fonts */
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Bakbak+One&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,200;0,400;1,300;1,500&family=Josefin+Slab&family=Karla:wght@700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;700&family=Lexend+Deca:wght@400;700&family=Lobster&family=Lora:wght@700&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Open+Sans&family=Outfit:wght@400;600;700&family=Poppins:wght@600&family=Red+Hat+Display:wght@500;900&family=Roboto+Condensed:wght@700&family=Rowdies&family=Satisfy&family=Seymour+One&family=Signika+Negative:wght@300&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Bakbak+One&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,200;0,400;1,300;1,500&family=Josefin+Slab&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;700&family=Lexend+Deca:wght@400;700&family=Lobster&family=Lora:wght@700&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Open+Sans&family=Outfit:wght@400;600;700&family=Poppins:wght@600&family=Red+Hat+Display:wght@500;900&family=Roboto+Condensed:wght@700&family=Rowdies&family=Satisfy&family=Seymour+One&family=Signika+Negative:wght@300&family=Space+Grotesk:wght@300&display=swap');
+/* main code */
+body{
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height:98vh;
+}
+html,body{
+    overflow-x:hidden;
+    max-width:100%;
+}
+.logo{
+    background-color:white;
+    padding:35px;
+    width:700px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-weight:700;
+}
+h2{
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-weight:700;
+}
+.content{
+    line-height:30px;
+   color: hsl(218, 22%, 67%);
+   font-family: 'Karla', sans-serif;
+   font-weight:400;
+   width:700px;
+}
+.logo-2{
+    background-color:hsl(179, 62%, 43%);
+    padding:35px;
+    width:350px;
+    border-bottom-left-radius:10px;
+}
+.subscription{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight:700;
+    font-size:20px;
+}
+.subscription-rate{
+    color:white;
+    font-family: 'Karla', sans-serif;
+    font-size:30px;
+    font-weight:700;
+}
+.rs{
+    color:lightgray;
+    font-size:16px;
+}
+.subscription-cont{
+    font-size:21px;
+    font-family: 'Karla', sans-serif;
+    color:whitesmoke;
+}
+.btn-1{
+    text-align: center;
+    margin-left:-80px;
+    margin-top:30px;
+}
+.btn-1 button{
+    border-top-width:0px;
+    border-bottom-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:100px;
+    padding-right:100px;
+    font-family: 'Karla', sans-serif;
+    font-weight:700;
+    color:white;
+    font-size:16px;
+    background-color:hsl(71, 73%, 54%);
+    box-shadow:1px 1px 15px 1px hsl(69, 16%, 58%);
+    border-radius:10px;
+}
+.btn-1 button:hover{
+  background-color:hsl(71, 96%, 50%);
+  transition:0.10s;
+}
+.btn-1 button:active {
+    box-shadow:1px 1px 10px 1px white;
+    transform: translateY(3px);
+  }
+  .logo-3{
+    background-color:hsl(179, 53%, 50%);
+    width:280px;
+    padding:35px;
+    border-bottom-right-radius:10px;
+  }
+  .why{
+    color:white;
+    font-weight:700;
+    font-family: 'Karla', sans-serif;
+    font-size:20px;
+  }
+  .why-content{
+    width:200px;
+    font-family: 'Karla', sans-serif;
+    font-size:16px;
+    color:whitesmoke;
+    line-height:25px; 
+  }
+  .roll{
+    display: flex; 
+  }
+  .container{
+    box-shadow:1px 1px 50px 1px lightgray;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    
+  }
+  /*Media Queries */
+  @media (max-width:800px) {
+    .logo{
+        width:550px;
+    }
+    .logo-2{
+        width:280px;
+    }
+    .subscription-cont{
+        font-size:18px;
+    }
+    .btn-1 button{
+        padding-left:80px;
+        padding-right:80px;
+        margin-left:40px;
+    }
+    .content{
+       width:550px;
+    }
+    .logo-3{
+        width:200px;
+    }
+  }
+  @media (max-width:640px) {
+    .roll{
+        flex-direction: column;
+      }
+      .logo{
+        width:360px;
+        
+    }
+    .container{
+        margin-top:350px;
+        margin-bottom:30px;
+    }
+    .logo-2{
+        width:360px;
+        border-bottom-left-radius:0px;
+    }
+    .logo-3{
+        width:360px;
+        border-bottom-left-radius:10px;
+    }
+    h2{
+        width:400px;
+        font-size:21px;
+    }
+    .content{
+        width:270px;
+    }
+    .subscription{
+        font-size: 25px;
+    }
+    .subscription-cont{
+        font-size:23px
+    }
+    .btn-1 button{
+        padding-left:120px;
+        padding-right:120px;
+    }
+    .why-content{
+        font-size:18px;
+        line-height:25px;
+    }
+  }
+  @media (max-width:450px) {
+    h1{
+        font-size:25px;
+    }
+    h2{
+        font-size:17px;
+        width:300px;
+    }
+    .content{
+        font-size:13px;
+        width:260px;
+    }
+    .logo,.logo-2,.logo-3{
+        width:250px;
+    }
+    .subscription{
+        font-size:20px;
+    }
+    .subscription-cont{
+        font-size: 16px;
+    }
+    .btn-1 button{
+      padding-left:60px;
+      padding-right:60px;
+      margin-left:50px;
+    }
+  }
+  @media (max-width:340px) {
+    h1{
+        font-size:20px;
+    }
+    h2{
+        font-size:14px;
+        width:200px;
+    }
+     .content{
+        font-size:13px;
+        width:190px;
+    }
+    .logo,.logo-2,.logo-3{
+        width:200px;
+    }
+    .subscription{
+        font-size:16px;
+    }
+    .subscription-cont{
+        font-size: 13px;
+    }
+    .btn-1 button{
+        padding-left:40px;
+        padding-right:40px;
+        margin-left:60px;
+      }
+      .why-content{
+        font-size:15px;
+      }
+  }
+  /* End of the css code */

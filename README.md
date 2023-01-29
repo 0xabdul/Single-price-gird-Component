@@ -44,7 +44,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## Acknowledgments<br>
 <ul>
-  <li>Inspiration by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a></li>.
+  <li>Inspiration by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a></li>
 
 
 
